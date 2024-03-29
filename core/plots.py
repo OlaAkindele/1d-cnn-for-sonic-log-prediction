@@ -5,7 +5,7 @@ import seaborn as sns
 import numpy as np
 
 __all__ = [
-    'Correlation', 'performance', 'log_plot' 
+    'Correlation', 'performance1', 'performance2', 'log_plot' 
 ]
 
 class Correlation:

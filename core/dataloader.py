@@ -1,8 +1,6 @@
 import torch
 import numpy as np
-from torch.utils.data import (
-    DataLoader, TensorDataset,Dataset
-                              )
+from torch.utils.data import ( DataLoader, TensorDataset,Dataset)
 from torch.utils.data.sampler import SubsetRandomSampler
 
 def dataloader(x, y, bs=64):
